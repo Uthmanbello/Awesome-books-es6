@@ -43,7 +43,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://uthmanbello.github.io/awesome-es6/)
+- [Live Demo Link](https://uthmanbello.github.io/Awesome-books-es6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +63,7 @@ Clone this repository to your desired folder:
 
 To clone this repository to your desired folder, use your code editor terminal or git bash, then type the command below:
 
-git clone https://github.com/Uthmanbello/awesome-es6
+git clone https://github.com/Uthmanbello/Awesome-books-es6
 
 ### Install
 
@@ -94,7 +94,7 @@ npx stylelint "**/*.{css,scss}" --fix
 
 You can deploy this project using:
 
--[Deployment Link](hhttps://uthmanbello.github.io/awesome-es6/)
+-[Deployment Link](https://uthmanbello.github.io/Awesome-books-es6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
