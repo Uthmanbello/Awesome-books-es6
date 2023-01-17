@@ -1,28 +1,28 @@
 export default class Books {
-    constructor() {
-      this.BookList = {};
-      this.DisplayBooks = document.querySelector('.collection');
-      this.NewTitle = document.querySelector('#title');
-      this.NewAuthor = document.querySelector('#author');
-      this.SaveBooks = localStorage.getItem('BookList');
-      this.AddBook = document.querySelector('#btn');
-      this.ErrorChecker = document.querySelector('.checker');
-      this.StoreBooks = [];
-      this.DecideOnDisplay();
-    }
-  
+  constructor() {
+    this.BookList = {};
+    this.DisplayBooks = document.querySelector('.collection');
+    this.NewTitle = document.querySelector('#title');
+    this.NewAuthor = document.querySelector('#author');
+    this.SaveBooks = localStorage.getItem('BookList');
+    this.AddBook = document.querySelector('#btn');
+    this.ErrorChecker = document.querySelector('.checker');
+    this.StoreBooks = [];
+    this.DecideOnDisplay();
+  }
+
       ClearFields = () => {
         this.NewTitle.value = '';
         this.NewAuthor.value = '';
       };
-  
+
       Validate = () => {
         if (this.NewTitle.value !== '' && this.NewAuthor.value !== '') {
           this.ErrorChecker.textContent = '';
           return true;
         }
       }
-  
+
       DisplayAllBooks = () => {
         this.DisplayBooks.innerHTML = '';
         this.HoldBooks = JSON.parse(localStorage.getItem('BookList'));
@@ -37,7 +37,7 @@ export default class Books {
           });
         }
       };
-  
+
       DecideOnDisplay = () => {
         if (this.SaveBooks === null) {
           this.DisplayBooks.innerHTML = '';
@@ -45,7 +45,7 @@ export default class Books {
           this.DisplayAllBooks();
         }
       };
-  
+
       AddNewBook = () => {
         this.AddBook.addEventListener('click', () => {
           if (this.Validate()) {
@@ -62,7 +62,7 @@ export default class Books {
           }
         });
       };
-  
+
       RemoveBooks = () => {
         if (document.body.contains(document.querySelector('.remove'))) {
           document.querySelectorAll('.remove').forEach((rm) => {
@@ -79,4 +79,4 @@ export default class Books {
           });
         }
       };
-  }
+}
