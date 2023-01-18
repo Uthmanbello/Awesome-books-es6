@@ -15,6 +15,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+  - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -39,9 +40,14 @@
 -CSS
 -JavaScript
 
-## 🚀 Live Demo <a name="live-demo"></a>
+### Key Features <a name="key-features"></a>
 
-> Add a link to your deployed project.
+- **[The project was built using ES6]**
+- **[Modules were imported/exported for the JavaScript]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://uthmanbello.github.io/Awesome-books-es6/)
 
