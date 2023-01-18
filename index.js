@@ -21,7 +21,6 @@ const DisplayAllBooks = () => {
     Contact.classList.remove('active');
     AddBooks.classList.remove('active');
     DisplayBooks.style.display = 'block';
-    books.RemoveBooks();
   });
 };
 

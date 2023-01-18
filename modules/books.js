@@ -76,6 +76,7 @@ export default class Books {
               });
               localStorage.setItem('BookList', JSON.stringify(DeleteBook));
               this.DecideOnDisplay();
+              this.RemoveBooks();
             });
           });
         }
