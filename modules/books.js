@@ -21,6 +21,7 @@ export default class Books {
           this.ErrorChecker.textContent = '';
           return true;
         }
+        return false;
       }
 
       DisplayAllBooks = () => {
